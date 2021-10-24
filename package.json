@@ -1,0 +1,17 @@
+{
+  "name": "climate-api",
+  "version": "1.0.0",
+  "description": "This is an API that is returning all the latest Climate Change news of the most famous websites around the world.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Alexandre Lisiecki",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
+}
